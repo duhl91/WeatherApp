@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+  <title>Weather App</title>
+</head>
+
+<body>
+    <header>
+        <h1>Weather App</h1>  
+        <p>Search for a city to see the forecast!</p>
+    </header>
+
+    <main>
+        <div class="col-12 col-md-4">
+
+            <div class="card">
+              <h2 class="card-header text-uppercase">Enter a City: </h3>
+              <form id="user-form" class="card-body">
+                <input class="form-input" type="text" id="city" />
+                <button type="submit" class="btn">Get Weather</button>
+              </form>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-8">
+            <h2 class="subtitle">Showing Repositories for: <span id="user-search-term"></span></h2>
+            <div id="cities-container" class="list-group"></div>
+          </div>
+    </main>
+    <script src="script.js"></script>
+    
+</body>

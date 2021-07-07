@@ -1,0 +1,12 @@
+h1 {
+    font-weight: 700;
+    background: blue;
+    color: white;
+    padding: 25px;
+}
+header p {
+    background: lightskyblue;
+    padding: 20px;
+    font-size: large;
+}
+
