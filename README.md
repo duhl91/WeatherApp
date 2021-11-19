@@ -1,5 +1,5 @@
 # WeatherApp
-This app uses the Open Weather Map One Call API to access the weather forecast for cities across the country. 
+This app uses the Open Weather Map One Call API to access the weather forecast for cities across the country, and displays them in a 5-day forecast format when a city is entered by the user.
 
 ## Technologies
 * HTML
